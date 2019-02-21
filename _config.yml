@@ -40,3 +40,13 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#relative_permalinks: false
+
+#include: ['_pages']
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+permalink: pretty
